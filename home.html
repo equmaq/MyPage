@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/home.css">
+<style>
+    :root{
+        scrollbar-width: thin;
+    }
+    body{
+        background: linear-gradient(135deg, #2a263b, #2d253e);
+        color: aliceblue;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+    }
+    header{
+        background-color: #4a4469;
+        margin: 0px;
+        height: 80px;
+        border-width: 0px;
+        border-bottom: 2px;
+        border-bottom: #F15132;
+        border-style: solid;
+    }
+    h1{
+        padding-top: 20px;
+        padding-left: 10px;
+        margin-top: 0px;
+        position: absolute;
+    }
+    .siteButtContainer{
+        border-width: 0px;
+        border-left: 3px;
+        border-style: solid;
+        border-color: #F15132;
+        width: 400px;
+        margin-left: auto;
+        background-color: #40395c;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+    }
+    h2{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px; 
+        background-color: #312844;
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .siteButt{
+        width: 350px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: #2d253e;
+        margin-left: auto;
+        margin-right: auto;
+        color: aliceblue;
+        text-decoration: none;
+        margin-bottom: 20px;
+        transition: 300ms;
+    }
+    .siteButt:hover{
+        transition: 300ms;
+        transform: scale(1.02);
+        background-color:#2e253f;
+        box-shadow: 2px 2px #F15132;
+    }
+    .siteButt:hover > .icon{
+        transition: 300ms;
+    }
+    .icon{
+        position: absolute;
+        background-color: aliceblue;
+        border-radius: 50%;
+        background-size: contain;
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 60px;
+        width: 60px;
+    }
+    h3{
+        font-size: 35px;
+        padding-top: 15px;
+        margin-top: 0px;
+    }
+</style>
+</head>
+    <body>
+        <header>
+            <h1>Welcome to my website!</h1>
+        </header>
+        <div class="siteButtContainer">
+            <h2>Socials and related</h2>
+            <a href="https://github.com/equmaq" class="siteButt">
+                <div class="icon" style="background-image: url(/gallery/github.png);"></div>
+                <h3>Github</h3>
+            </a>
+            <a href="https://twitter.com/equmaq" class="siteButt">
+                <div class="icon" style="background-image: url(/gallery/twitter.png); background-color: black;"></div>
+                <h3>Twitter</h3>
+            </a>
+            <a href="https://www.youtube.com/channel/UCyH7P_PFfmVRXNmFbwkYqcw" class="siteButt">
+                <div class="icon" style="background-image: url(/gallery/youtube.png); background-color: #FF0000;"></div>
+                <h3>YouTube</h3>
+            </a>
+            <a href="https://github.com/equmaq" class="siteButt">
+                <div class="icon" style="background-image: url(/gallery/github.png);"></div>
+                <h3>Github</h3>
+            </a>
+        </div>
+        <script src="/js/home.js" async defer></script>
+    </body>
+</html>
