@@ -7,7 +7,13 @@
 <script>
     window.onload = function() {
         var currentUrl = window.location.href;
+        if(currentUrl.includes("index.html")){
         window.location.href = currentUrl.replace("index.html", "home.html");
+        }
+        else
+        {
+        window.location.href = currentUrl + "home.html"
+        }
     };
 </script>
 </head>
