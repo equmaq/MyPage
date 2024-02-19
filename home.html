@@ -5,132 +5,40 @@
 <title></title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/home.css">
+<link rel="stylesheet" href="./css/home.css">
 <style>
-    :root{
-        scrollbar-width: thin;
-        --window-width:100vw;
-    }
-    body{
-        background: linear-gradient(135deg, #2a263b, #2d253e);
-        color: aliceblue;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: 0px;
-        overflow-x: hidden;
-    }
-    header{
-        background-color: #4a4469;
-        margin: 0px;
-        height: 80px;
-        border-width: 0px;
-        border-bottom: 2px;
-        border-bottom: #F15132;
-        border-style: solid;
-    }
-    h1{
-        padding-top: 20px;
-        padding-left: 15px;
-        margin-top: 0px;
-        position: absolute;
-    }
-    .siteButtContainer{
-        border-width: 0px;
-        border-left: 3px;
-        border-style: solid;
-        border-color: #F15132;
-        width: 400px;
-        margin-left: auto;
-        background-color: #40395c;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        height: 100%;
-    }
-    h2{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 30px; 
-        background-color: #312844;
-        margin-top: 0px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .siteButt{
-        width: 350px;
-        height: 70px;
-        border-radius: 50px;
-        background-color: #2d253e;
-        margin-left: auto;
-        margin-right: auto;
-        color: aliceblue;
-        text-decoration: none;
-        margin-bottom: 20px;
-        transition: 300ms;
-    }
-    .siteButt:hover{
-        transition: 300ms;
-        transform: scale(1.02);
-        background-color:#2e253f;
-        box-shadow: 2px 2px #F15132;
-    }
-    .siteButt:hover > .icon{
-        transition: 300ms;
-    }
-    .icon{
-        position: absolute;
-        background-color: aliceblue;
-        border-radius: 50%;
-        background-size: contain;
-        margin-top: 5px;
-        margin-left: 5px;
-        height: 60px;
-        width: 60px;
-    }
-    h3{
-        font-size: 35px;
-        padding-top: 15px;
-        margin-top: 0px;
-    }
-    .textfield{
-        max-width: calc(var(--window-width) - 450px);
-        position: absolute;
-        margin-left: 30px;
-    }
-    h4{
-        font-size: 35px;
-        margin-top: 15px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-    h5{
-        font-size: 55px;
-        margin-top: 15px;
-        margin-bottom: 40px;
-        margin-left: 5px;
-    }
-    p{
-        background-color: #4a4469;
-        width:fit-content;
-        max-width: 70%;
-        padding: 10px;
-        padding-top: 5px;
-        border-bottom: #F15132 5px solid;
-        border-radius: 5px;
-    }
-    a{
-        color: #F15132;
-    }
+.headerright{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+}
+.nav{
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+    font-size: 23px;
+    border-left: #F15132 2px solid;
+}
 </style>
 </head>
     <body>
         <header>
             <h1>Welcome to my website!</h1>
+            <div class="headerright">
+                <div class="nav">About me</div>
+                <div class="nav">My projects</div>
+                <div class="nav" style="border-right: #F15132 2px solid;">Placeholder</div>
+            </div>
         </header>
         <div class="textfield">
             <br>
-            <h5>About me</h5>
+            <h5 class="aboutme">About me</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis blanditiis animi sint error nulla magnam eveniet optio quasi vitae dolor, dolore explicabo provident quae ducimus nisi expedita reprehenderit repellendus voluptatum!</p>
             <br>
-            <h5>My projects</h5>
+            <h5 class="myprojects">My projects</h5>
             <h4>Bensa simulator</h4>
             <p>Bensa simulator is a kind of game i created during my first year at Prakticum. It simulates the payment and refuling part of refuling your car. <br>
                You can try it out <a href="https://equmaq.github.io/BensaSim2000-release/">here</a></p>
@@ -149,7 +57,15 @@
                 <div class="icon" style="background-image: url(./gallery/youtube.png); background-color: #FF0000;"></div>
                 <h3>YouTube</h3>
             </a>
+            <a href="mailto:contact.equmaq@gmail.com" class="siteButt">
+                <div class="icon" style="background-image: url(./gallery/email.png); background-color: #000000;"></div>
+                <h3>Email</h3>
+            </a>
+            <a href="mailto:contact.equmaq@gmail.com" class="siteButt">
+                <div class="icon" style="background-image: url(./gallery/buymeacoffee.png); background-color: #FADD27;"></div>
+                <h3>Buy me a coffee</h3>
+            </a>
         </div>
-        <script src="/js/home.js" async defer></script>
+        <script src="./js/home.js" async defer></script>
     </body>
 </html>

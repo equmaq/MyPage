@@ -1,1 +1,120 @@
-
+:root{
+    scrollbar-width: thin;
+    --window-width:100vw;
+}
+body{
+    background: linear-gradient(135deg, #2a263b, #2d253e);
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+header{
+    background-color: #4a4469;
+    margin: 0px;
+    height: 80px;
+    border-width: 0px;
+    border-bottom: 2px;
+    border-bottom: #F15132;
+    border-style: solid;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1000;
+}
+h1{
+    padding-top: 20px;
+    padding-left: 15px;
+    margin-top: 0px;
+    position: absolute;
+}
+.siteButtContainer{
+    border-width: 0px;
+    border-left: 3px;
+    border-style: solid;
+    border-color: #F15132;
+    width: 400px;
+    margin-left: auto;
+    background-color: #40395c;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px; 
+    background-color: #312844;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.siteButt{
+    padding-left: 60px;
+    width: 290px;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: #2d253e;
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    text-decoration: none;
+    margin-bottom: 20px;
+    transition: 300ms;
+}
+.siteButt:hover{
+    transition: 300ms;
+    transform: scale(1.02);
+    background-color:#2e253f;
+    box-shadow: 2px 2px #F15132;
+}
+.siteButt:hover > .icon{
+    transition: 300ms;
+}
+.icon{
+    transform: translateX(-60px);
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-size: contain;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 60px;
+    width: 60px;
+}
+h3{
+    font-size: 35px;
+    min-height: 55px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    margin-top: 0px;
+}
+.textfield{
+    max-width: calc(var(--window-width) - 450px);
+    position: absolute;
+    margin-left: 30px;
+}
+h4{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+h5{
+    font-size: 55px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+p{
+    background-color: #4a4469;
+    width:fit-content;
+    max-width: 70%;
+    padding: 10px;
+    padding-top: 5px;
+    border-bottom: #F15132 5px solid;
+    border-radius: 5px;
+}
+a{
+    color: #F15132;
+}
