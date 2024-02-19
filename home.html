@@ -22,6 +22,29 @@
     font-size: 23px;
     border-left: #F15132 2px solid;
 }
+.navmenu>div{
+    visibility: hidden;
+    transform: translateX(-25px);
+    width: 166px;
+    height: fit-content;
+    position: absolute;
+    background-color: #4A4469;
+    top: 71px;
+    display: flex;
+    flex-direction: column;
+    border-top: #F15132 12px solid;
+}
+.navmenu:hover>div{
+    visibility: visible;
+}
+.navmenu>div>div{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.navmenu>div>div:hover{
+    background-color: #36324d;
+}
 </style>
 </head>
     <body>
@@ -29,7 +52,14 @@
             <h1>Welcome to my website!</h1>
             <div class="headerright">
                 <div class="nav">About me</div>
-                <div class="nav">My projects</div>
+                <div class="nav navmenu">My projects
+                    <div>
+                        <div>Bensa Simulator</div>
+                        <div>placeholder</div>
+                        <div>placeholder</div>
+                        <div>placeholder</div>
+                    </div>
+                </div>
                 <div class="nav" style="border-right: #F15132 2px solid;">Placeholder</div>
             </div>
         </header>
