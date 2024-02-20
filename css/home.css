@@ -121,3 +121,41 @@ p{
 a{
     color: #F15132;
 }
+.headerright{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+}
+.nav{
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+    font-size: 23px;
+    border-left: #F15132 2px solid;
+}
+.navmenu>div{
+    visibility: hidden;
+    transform: translateX(-25px);
+    width: 166px;
+    height: fit-content;
+    position: absolute;
+    background-color: #4A4469;
+    top: 71px;
+    display: flex;
+    flex-direction: column;
+    border-top: #F15132 12px solid;
+}
+.navmenu:hover>div{
+    visibility: visible;
+}
+.navmenu>div>div{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.navmenu>div>div:hover{
+    background-color: #36324d;
+}
