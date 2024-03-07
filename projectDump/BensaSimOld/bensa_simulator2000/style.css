@@ -1,0 +1,233 @@
+@font-face {
+  font-family: digital;
+  src: url(./fonts/ds-digital/DS-DIGI.TTF);
+}
+.gas-select {
+  background-color: rgb(182, 182, 182);
+  height: 550px;
+  width: 550px;
+  margin-left: 90px;
+  margin-top: 30px;
+  display: grid;
+}
+.gas-select > div {
+  margin: 5px;
+}
+.Sel95 {
+  grid-row: 1;
+  grid-column: 1;
+  background-image: url(./gallery/95.png);
+  background-size: contain;
+  border-radius: 10px;
+}
+.Sel98 {
+  grid-row: 1;
+  grid-column: 2;
+  background-image: url(./gallery/98.png);
+  background-size: contain;
+  border-radius: 10px;
+}
+.SelDiesel {
+  grid-row: 2;
+  grid-column: 1;
+  background-image: url(./gallery/Diesel.png);
+  background-size: contain;
+  border-radius: 10px;
+}
+.SelMehu {
+  grid-row: 2;
+  grid-column: 2;
+  background-image: url(./gallery/Mehu.png);
+  background-size: contain;
+  border-radius: 10px;
+}
+.prices {
+  display: grid;
+  width: 550px;
+  height: 200px;
+  background-color: rgb(182, 182, 182);
+  margin-left: 90px;
+  margin-top: 70px;
+}
+.prices > div {
+  background-color: rgb(32, 32, 32);
+  margin: 5px;
+  text-align: right;
+  font-family: digital;
+  color: #ecc238;
+  font-size: 70px;
+  width: 265px;
+}
+.Price95 {
+  grid-row: 1;
+  grid-column: 1;
+}
+.Price98 {
+  grid-row: 1;
+  grid-column: 2;
+}
+.PriceDiesel {
+  grid-row: 2;
+  grid-column: 1;
+}
+.PriceMehu {
+  grid-row: 2;
+  grid-column: 2;
+}
+.PumpControll {
+  display: grid;
+  background-color: rgb(182, 182, 182);
+  width: 400px;
+  height: 400px;
+  margin-left: 670px;
+  position: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.PumpControll > div {
+  margin: 5px;
+  text-align: center;
+  font-size: xx-large;
+}
+.Insert {
+  grid-row: 1;
+  background-color: #980000;
+}
+.Pump {
+  grid-row: 2;
+  background-color: #c93400;
+}
+.Finish {
+  grid-row: 3;
+  background-color: #015b0c;
+}
+.PumpInfo {
+  background-color: rgb(182, 182, 182);
+  width: 400px;
+  height: 350px;
+  margin-top: 430px;
+  margin-left: 670px;
+  position: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.PumpInfo1 {
+  font-size: x-large;
+  margin-left: 5px;
+}
+.PumpInfo2 {
+  background-color: rgb(32, 32, 32);
+  margin: 5px;
+  text-align: right;
+  font-family: digital;
+  color: #ecc238;
+  font-size: 70px;
+  width: 390;
+  height: 95px;
+}
+.PumpInfo3 {
+  font-size: x-large;
+  margin-left: 5px;
+}
+.PumpInfo4 {
+  background-color: rgb(32, 32, 32);
+  margin: 5px;
+  text-align: right;
+  font-family: digital;
+  color: #ecc238;
+  font-size: 70px;
+  width: 390;
+  height: 95px;
+}
+.PayScreen {
+  display: grid;
+  position: fixed;
+  background-color: #fec437;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(182, 182, 182);
+  width: 690px;
+  height: 380px;
+  margin-left: 1100px;
+}
+.header1 {
+  grid-row: 1;
+  grid-column: 1;
+  height: 30px;
+  width: 340px;
+  padding-left: 5px;
+  background-color: #2463c9;
+  font-size: x-large;
+}
+.header2 {
+  grid-row: 1;
+  grid-column: 2;
+  height: 30px;
+  width: 340px;
+  padding-right: 5px;
+  background-color: #2463c9;
+  font-size: x-large;
+  text-align: end;
+}
+.adspace {
+  float: right;
+  position: fixed;
+  height: 350px;
+  width: 170px;
+  margin-left: 520px;
+  margin-top: 30px;
+  background-color: #ed1b2e;
+  background-image: url(./gallery/ad.png);
+  background-repeat: no-repeat;
+  background-size: 150px 330px;
+  background-position: 10px;
+}
+.lansel {
+  text-align: center;
+  font-size: x-large;
+  width: 500px;
+  position: fixed;
+  margin-top: 150px;
+}
+.lan {
+  height: 40px;
+  width: auto;
+}
+.lan {
+  height: 40px;
+  width: auto;
+}
+.lan {
+  height: 40px;
+  width: auto;
+}
+.buttons {
+  margin: 10px;
+  height: 45px;
+  width: 65px;
+  background-color: #ed1b2e;
+  border-color: #980000;
+  border-radius: 10px;
+}
+.cr {
+  background-image: url(./gallery/CRE.png);
+  position: fixed;
+  margin-left: 1170px;
+  margin-top: 460px;
+  width: 500px;
+  height: 300px;
+}
+.pinput {
+  background-color: #9b7821;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.pinputbuttons {
+  width: 65px;
+  height: 40px;
+  margin: 3px;
+  background-color: silver;
+}
