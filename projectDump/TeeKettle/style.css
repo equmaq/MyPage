@@ -11,9 +11,6 @@ body{
     margin-top: 250px;
     display: flex;
     flex-direction: column-reverse;
-    background: url(./assets/praveen-kumar-mathivanan-j7qJLn4Chzs-unsplash.jpg);
-    background-size: contain;
-    background-blend-mode: ;
 }
 #handle{
     border: 20px grey solid;

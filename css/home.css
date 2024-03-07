@@ -99,7 +99,7 @@ h3{
 }
 h4{
     font-size: 35px;
-    margin-top: 15px;
+    margin-top: 50px;
     margin-bottom: 10px;
     margin-left: 10px;
 }
@@ -146,16 +146,20 @@ a{
     top: 71px;
     display: flex;
     flex-direction: column;
-    border-top: #F15132 12px solid;
+    border-top: none 12px solid;
+    transition: 200ms;
 }
 .navmenu:hover>div{
     visibility: visible;
+    transition: 200ms;
 }
 .navmenu>div>div{
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;
+    transition: 200ms;
 }
 .navmenu>div>div:hover{
     background-color: #36324d;
+    transition: 200ms;
 }

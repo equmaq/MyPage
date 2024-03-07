@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+        </style>
+    </head>
+    <body style="background-color: #F03716; text-align: center;">
+        <p class="point">
+            Points: <br>
+        🍇 = 1 <br>
+        🍈 = 2 <br>
+        🍉 = 3 <br>
+        🍊 = 7 <br>
+        🍋 = 8 <br>
+        🍌 = 9 <br>
+        🍍 = 9 <br>
+        🥭 = 10 <br>
+        🍎 = 11 <br>
+        🍏 = 12 <br>
+        🍐 = 13 <br>
+        🍑 = 16 <br>
+        👑 = 18 <br>
+        3x = points x 2
+        </p>
+    <h1>Test your luck!</h1>
+    <div class="points" id="points">00</div>
+        <div class="collumncontainer">
+         <div class="collumn"><p id="0">🍋</p><p id="3">🍋</p><p id="6">🍋</p></div>
+         <div class="collumn"><p id="1">🍋</p><p id="4">🍋</p><p id="7">🍋</p></div>
+         <div class="collumn"><p id="2">🍋</p><p id="5">🍋</p><p id="8">🍋</p></div>
+        </div>
+        <button class="spin" onclick="effectcount = 0;spineffect()">Spin</button>
+        <audio id="spin">
+            <source src="./sounds/spin.mp3" type="audio/mp3">
+            <source src="./sounds/spin.ogg" type="audio/ogg">
+        </audio>
+        <audio id="win">
+            <source src="./sounds/win.mp3" type="audio/mp3">
+            <source src="./sounds/win.ogg" type="audio/ogg">
+        </audio>
+        <audio id="bigwin">
+            <source src="./sounds/bigwin.mp3" type="audio/mp3">
+            <source src="./sounds/bigwin.ogg" type="audio/ogg">
+        </audio>
+        <script src="./main.js" async defer></script>
+    </body>
+</html>
